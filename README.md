@@ -14,3 +14,4 @@ After the game completes, a new screen will be showed based on the outcome. It c
 This type of game is fairly common so a lot of algorithms are available to fine tune the game. I borrowed some of the collision, placement and AI movement algorithms from their respective original authors. The player sprites, background images and audio files (+that windows theme) are also taken from the internet with no intention of copyright infringement.
 
 Run method: The game can be started by running Game.java or the provided jar file.
+Important: The mainAudio and startUp strings in Game.java must point to the local directory where the files are stored. mainAudio will not play on a mac because mac puts a 1 megabyte size limitation.

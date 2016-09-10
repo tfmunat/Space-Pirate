@@ -4,7 +4,6 @@
   *********************************************************/
 
   /* Important: 
-   * The run method public void run()
    * The mainAudio and startUp strings must point to the local directory where the files are stored
    * mainAudio will not play on a Mac because Mac puts a 1 megabyte size limitation.
    * The strings should be uncommented to play the audio*/
@@ -216,8 +215,8 @@ public class Game extends JPanel implements Runnable {
   public void run() {
     this.init();
     GameAudio audio = new GameAudio();
-    String mainAudio = "C:\\Users\\helpdesk\\Downloads\\it-2016-05-13\\Conference Project Tahmid_Munat\\mainAudio.wav";
-    String startUp = "C:\\Users\\helpdesk\\Downloads\\it-2016-05-13\\Conference Project Tahmid_Munat\\startup.wav";
+    String mainAudio = "your\\local\\directory\\mainAudio.wav";
+    String startUp = "your\\local\\directory\\startup.wav";
     audio.play(startUp);
     try {
       // show the first loading screen, the second loading screen and main menu; in that order
